@@ -13,5 +13,16 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png"" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+    
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--<audio src="midia/fiesta de la vida - aaron kenny.mp3" controls></audio>
+    -- acima é o caso mais facil. Nesse acima ele tocou direto mesmo sem eu  pedir pq estava com autoplay logo apos controls. eu tirei-->
+    <audio preload="metadata" controls> <!--pode por ap lado de controls loop para ele nao parar de tocar-->
+        <source src="midia/spring fling - track tribe.mp3" type="audio/mpeg">
+        <source src="midia/spring fling - track tribe.ogg" type="audio/ogg">
+        <source src="midia/spring fling - track tribe.wav" type="audio//wav">
+        <p>Infelizmente seu navegador não conesgue reproduzir o audio. <a href="midia/spring fling - track tribe.mp3">Clique aqui para baixar o aquivo.</a></p>
+    </audio>
 </body>
 </html>
