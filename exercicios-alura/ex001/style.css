@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(138, 112, 112);
+       
+}
+#banner {
+    
+    width:100%;
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: justify;
+    background-color: darkgrey;
+}
+#missao{
+    font-size: 26px;
+}
+em strong{
+    color:rgb(161, 26, 26);
+}
+.itens {
+    font-style: italic;
+}
