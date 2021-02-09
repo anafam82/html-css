@@ -1,50 +1,123 @@
 @charset "UTF-8";
 
-
-#banner {
-    
-    width:100%;
-}
-.principal{
-    background-color: rgb(138, 112, 112);
-    padding: 30px;
+header {
+    background: rgb(209, 202, 216);
+    padding: 20px 0;
 }
 
-.titulo-principal{
-    padding-left: 20px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
 }
-.titulo-centralizado{
+
+nav{
+    position:absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
     text-align: center;
-    
-}
-p{
-    text-align: justify;
-    background-color: darkgrey;
-}
-#missao{
-    font-size: 26px;
-}
-em strong{
-    color:rgb(161, 26, 26);
-}
-.itens {
-    font-style: italic;
-}
-.beneficios{
-    background-color: white;
-    padding: 20px;
-}
-
-h2{
-    text-align: center;
-}
-
-ul{
-    display:inline-block;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; /*ou pode juntar tudo num so border: 2px solid black;*/
+    border-radius: 10px; /*o valor é o raio;*/
 }
-.imagembeneficios {
+
+.produtos li:hover{
+    border-color:#c78c19;
+}
+
+.produtos li:active{    /*quando clique está pressionado*/
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    /*background: url("bg.jpg");*/
+    background: #CCCCCC;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
+
+.checkbox {
+    margin: 20px 0;
+}
+
