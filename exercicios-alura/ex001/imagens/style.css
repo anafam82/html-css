@@ -271,18 +271,4 @@ td, th{
         width: 100%;
     }
 
-    .produtos,  produtos p{
-        width: 100%;
-    }
-
-    produtos p {
-        text-align: center;
-        
-    }
-
-    .imagem-produto {
-        width: 100%;
-    }
-    
-
 }
